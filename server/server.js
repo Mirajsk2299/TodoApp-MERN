@@ -19,5 +19,5 @@ app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/todos", require("./routes/todoRoutes"));
 
 app.listen(PORT, () => {
-  console.log(`Server Running http://localhost:${PORT}`);
+  console.log(`Server Running ${PORT}`);
 });
